@@ -58,9 +58,6 @@ btn.addEventListener('click', (e) => {
   addTasks(newTask);
   form.reset()
 
-  localStorage.setItem('todoList', JSON.stringify(todoList));
-  localStorage.getItem('newTask');
-
 })
 
 function addTasks(task) {
